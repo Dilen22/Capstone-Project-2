@@ -1,0 +1,31 @@
+XYZ Pvt Ltd’s business uses the DevOps life cycle to meet the increasing demand for their product while ensuring accuracy and scalability Here is a brief description of the business:
+
+Overview of the project:
+XYZ Pvt Ltd, a product-based organisation, is experiencing rapid growth in demand for its products, thus requiring a robust DevOps lifecycle The objective of the project is to develop the use of Docker and Kubernetes for deployment, scale and the use of application containers across hosts. The organization follows a one-to-one schedule with a regular release scheduled for the 25th of every month.
+
+DevOps lifecycle overview:
+
+Git workflow management: Configure Git workflows for version control, ensuring that releases arrive on the 25th of each month for consistency.
+Continuous Integration with Jenkins: The trigger code brings a commitment to the main branch to ensure continuous integration.
+Containerization with Docker: Use Dockerfiles to container the codebase, ensuring the same Docker images are created in GitHub pushes. Custom Docker images will be created to hold the application environment.
+Deployment with Kubernetes: Deploy containerized code into Kubernetes clusters in a production environment. Configure Kubernetes to manage application scaling through two replicas and expose the service through NodePort on port 30008 .(Script files are attached)
+Jenkins Pipeline Scripting: Create Jenkins pipeline scripts to coordinate the entire deployment process by integrating Git collaboration, code creation, Docker image creation, and Kubernetes deployment
+Infrastructure Configuration Management: Use configuration management tools to deploy the required software configuration to identified employee devices, ensuring that the required software stack is installed
+Infrastructure provisioning with Terraform : Use Terraform to automate the provisioning of infrastructure components within the AWS cloud provider, including business machines with specified software requirements (Main.tf file is attached) 
+
+Construction Architecture:
+
+Worker1: Install Jenkins and Java. (Main.tf)
+Worker2: Install Docker and Kubernetes. (Script1.sh)
+Worker3: Install Java, Docker, and Kubernetes. (Script2.sh)
+Worker4: Install Docker and Kubernetes.(Script3.sh)
+
+
+By leveraging this DevOps lifecycle, XYZ Pvt Ltd aims to streamline its development, deployment, and operations processes, enabling efficient handling of increasing product demand while maintaining stability and scalability.
+
+
+
+
+
+
+
