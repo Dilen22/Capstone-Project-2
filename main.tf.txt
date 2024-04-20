@@ -1,0 +1,33 @@
+  GNU nano 4.8                                        main.tf                                        Modified
+provider "aws" {
+  region = "us-east-1"
+  access_key = "AKIA6ELIFV4PDXJILUDP"
+  secret_key = "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"
+}
+resource "aws_instance" "K8s-Master" {
+  ami           = "ami-0cd59ecaf368e5ccf"
+  instance_type = "t2.medium"
+  key_name = "Project-2"
+  tags = {
+    Name = "Machine-3 K8"
+  }
+}
+resource "aws_instance" "K8s-Slave1" {
+  ami           = "ami-0cd59ecaf368e5ccf"
+  instance_type = "t2.micro"
+  key_name = "Project-2"
+  tags = {
+    Name = "Machine-2 K8"
+  }
+}
+resource "aws_instance" "K8s-Slave2" {
+  ami           = "ami-0cd59ecaf368e5ccf"
+  instance_type = "t2.micro"
+  key_name = "Project-2"
+  tags = {
+    Name = "Machine-4 K8"
+  }
+}
+
+
+
