@@ -22,6 +22,10 @@ Worker4: Install Docker and Kubernetes.(Script3.sh)
 
 
 By leveraging this DevOps lifecycle, XYZ Pvt Ltd aims to streamline its development, deployment, and operations processes, enabling efficient handling of increasing product demand while maintaining stability and scalability.
+XYZ Pvt Ltd is rapidly expanding its product offerings, necessitating a robust DevOps lifecycle. The project's aim is to harness Docker and Kubernetes for deployment, scaling, and management of application containers. 
+This includes implementing Git workflows for version control, continuous integration with Jenkins, Docker containerization, Kubernetes deployment, Jenkins pipeline scripting, infrastructure configuration management, and Terraform-based infrastructure provisioning on AWS. 
+Through this lifecycle, XYZ Pvt Ltd seeks to enhance development, deployment, and operations efficiency to meet growing product demand with stability and scalability.
+
 
 
 
